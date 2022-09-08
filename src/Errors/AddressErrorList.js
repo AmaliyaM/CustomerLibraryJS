@@ -1,0 +1,13 @@
+export const FirstAddressLineLengthError = 'First line is too long.'
+export const FirstAddressLineError = 'First adress line is required'
+export const SecondAddressLineLengthError = 'Second line is too long.'
+export const AddressTypeExsistanceError = 'Address type is required'
+export const AddressTypeFormatError = "Type only can be '1' for 'Shipping or '2' for 'Billing'"
+export const CityExsistanceError = 'City  is required'
+export const CityLengthError = 'Invalid length of city.'
+export const PostalCodeExsistanceError = 'Postal code  is required'
+export const PostalCodeError = 'Invalid length of postal code.'
+export const StateExsistanceError = 'State  is required'
+export const StateError = 'Invalid length of state.'
+export const CountryExsistanceError = 'Contry  is required'
+export const CountryFormatLength = "Contry only can be 'Canada' or 'US'"
