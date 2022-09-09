@@ -2,11 +2,11 @@ import * as addressErrorList from '../Errors/AddressErrorList'
 
 export default function validateAddress(address) {
   const errorList = []
-  if (address.FirstLine.lenth > 100) {
+  if (address.FirstLine?.length > 100) {
     errorList.push(addressErrorList.FirstAddressLineLengthError)
   }
   if (!address.FirstLine) errorList.push(addressErrorList.FirstAddressLineError)
-  if (address.SecondLine.lenth > 100) {
+  if (address.SecondLine.length > 100) {
     errorList.push(addressErrorList.SecondAddressLineLengthError)
   }
   if (address.Type !== 1 || address.Type !== 2) {
